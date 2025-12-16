@@ -37,11 +37,11 @@ Performance, zero/small memory allocations/footprint, no dependencies on any gam
 ## As unity module
 This repository can be installed as unity module directly from git url. In this way new line should be added to `Packages/manifest.json`:
 ```
-"com.leopotam.ecslite": "https://github.com/Leopotam/ecslite.git",
+"com.Serjio.EcsStruct": "https://github.com/Leopotam/ecslite.git",
 ```
 By default last released version will be used. If you need trunk / developing version then `develop` name of branch should be added after hash:
 ```
-"com.leopotam.ecslite": "https://github.com/Leopotam/ecslite.git#develop",
+"com.Serjio.EcsStruct": "https://github.com/Leopotam/ecslite.git#develop",
 ```
 
 ## As source
@@ -231,7 +231,7 @@ Not ready yet.
 
 Code example - each part should be integrated in proper place of engine execution flow.
 ```csharp
-using Leopotam.EcsLite;
+using Serjio.EcsStruct;
 
 class EcsStartup {
     EcsWorld _world;

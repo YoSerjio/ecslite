@@ -1,6 +1,6 @@
 {
-    "name": "Leopotam.EcsLite",
-    "rootNamespace": "Leopotam.EcsLite",
+    "name": "Serjio.EcsStruct",
+    "rootNamespace": "Serjio.EcsStruct",
     "references": [],
     "includePlatforms": [],
     "excludePlatforms": [],
