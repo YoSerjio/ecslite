@@ -1,19 +1,11 @@
 {
-    "name": "com.Serjio.EcsStruct",
+    "name": "com.serjio.ecsstruct",
     "author": "Leopotam",
-    "displayName": "LeoECS Lite",
-    "description": "LeoECS Lite is lightweight C# Entity Component System framework based on structs. Performance, zero/small memory allocations/footprint, no dependency on fucking Unity engine - main goals of this project.",
+    "displayName": "Serjio EcsStruct",
     "unity": "2020.3",
     "version": "2022.2.22",
-    "keywords": [
-        "leoecslite",
-        "leoecs",
-        "ecs",
-        "performance"
-    ],
-    "dependencies": {},
     "repository": {
         "type": "git",
-        "url": "https://github.com/Leopotam/ecslite.git"
+        "url": "https://github.com/YoSerjio/ecslite.git"
     }
 }
