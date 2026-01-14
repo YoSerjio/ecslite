@@ -4,6 +4,7 @@
 // Copyright (c) 2021-2022 Leopotam <leopotam@gmail.com>
 // ----------------------------------------------------------------------------
 
+using System.Diagnostics.CodeAnalysis;
 using System.Runtime.CompilerServices;
 
 #if ENABLE_IL2CPP
@@ -16,6 +17,11 @@ namespace Serjio.EcsStruct
     {
         internal int Id;
         internal int Gen;
+
+        public override bool Equals([NotNullWhen(true)] object? obj)
+        {
+            return obj is EcsPackedEntity packed && packed.Id == Id && packed.Gen == Gen;
+        }
     }
 
     public struct EcsPackedEntityWithWorld
