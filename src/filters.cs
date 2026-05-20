@@ -11,7 +11,7 @@ using System.Runtime.CompilerServices;
 using Unity.IL2CPP.CompilerServices;
 #endif
 
-namespace Serjio.EcsStruct
+namespace Nofiring.EcsStruct
 {
 #if LEOECSLITE_FILTER_EVENTS
     public interface IEcsFilterEventListener {
