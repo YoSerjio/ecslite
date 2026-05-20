@@ -1,6 +1,6 @@
 {
-    "name": "Serjio.EcsStruct",
-    "rootNamespace": "Serjio.EcsStruct",
+    "name": "Nofiring.EcsStruct",
+    "rootNamespace": "Nofiring.EcsStruct",
     "references": [],
     "includePlatforms": [],
     "excludePlatforms": [],

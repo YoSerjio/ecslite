@@ -12,7 +12,7 @@ using System.Runtime.CompilerServices;
 using Unity.IL2CPP.CompilerServices;
 #endif
 
-namespace Serjio.EcsStruct
+namespace Nofiring.EcsStruct
 {
 #if ENABLE_IL2CPP
     [Il2CppSetOption (Option.NullChecks, false)]
